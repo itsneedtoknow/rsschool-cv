@@ -22,8 +22,11 @@ Currently I work as a customer care manager in the English language learning sch
 * VS Code
 
 ### Work experience
+
 **Sept 2009 - Aug 2011** - work as a camp counselor in the Zubronok National Kids Center 
+
 **Aug 2011 - Oct 2017** - work as an administrative assistant in the Belarusian Biathlon Club
+
 **June 2021 - May 2022** - work as a customer care manager in the English language learning school
 
 
