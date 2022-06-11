@@ -40,3 +40,8 @@ div {
     color: rgb(196, 191, 191);
     height: 0.5px;
 }
+.section-title {
+font-size: 20px;
+line-height: 25px;
+margin: 24px 0 16px 0;
+}
