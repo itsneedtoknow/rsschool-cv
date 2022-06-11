@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #131212;
+    color: #eee4cd;
+}
+
+.page-container {
+    max-width: 1012px;
+    padding: 0 16px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.main-link {
+    font-size: 32px;
+    color: #0366D6;
+}
+.main-link:hover {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-decoration: underline;
+}
+.name-surname {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 16px 0 8px 0;
+    padding: 0;
+}
+.profession {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 24px 0 16px 0;
+    padding: 0 0 7px 0;
+    font-weight: bold;
+}
+.divider {
+    color: rgb(196, 191, 191);
+    height: 0.5px;
+}
+.section-title {
+text-align: center;
+font-size: 20px;
+line-height: 25px;
+margin: 24px 0 16px 0;
+}
+.section-content{
+    margin: 0 0 16px 0;
+    padding: 0 0 0 32px;
+}
+.item-classifier{
+    /* font-weight: bold; */
+    color: #b39b64;
+    margin: 0 16px 0 0;
+}
+.link-behance{
+    color: #b39b64;
+    text-decoration: none;
+}
+.link-behance:hover {
+    text-decoration: underline;
+}
+.content-item {
+    margin: 4px 0 0 0;
+}
+.experience-stage {
+    margin: 0 0 16px 0;
+}
+.footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+.menu-item:hover {
+    color: #927329;
+    text-decoration: underline;
+}
+.about {
+    margin: 30px 0 30px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about-text {
+
+}
+.my-photo {
+    margin: 0 24px 0 0;
+}
+.skills-content{
+    display: flex;
+    justify-content: space-around;
+}
+.section-text {
+    text-align: center;
+}
