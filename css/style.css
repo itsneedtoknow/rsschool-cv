@@ -86,8 +86,10 @@ margin: 24px 0 16px 0;
     margin: 4px 0 0 0;
 }
 /* Skills section */
-.skill-name {
+li.type {
+    font-weight: bold;
     color: #b39b64;
+    margin-bottom: 16px;
 }
 .skills-content{
     display: flex;
