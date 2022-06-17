@@ -22,6 +22,9 @@ li{
     list-style-type: none;
     margin: 0 24px 0 0;
 }
+ul.contacts-list {
+    padding-inline-start: 0;
+}
 a {
     text-decoration: none;
     text-transform: uppercase;
