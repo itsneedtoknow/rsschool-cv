@@ -4,7 +4,9 @@
 * Address: 149-27 Rokossovskiy ave.
 * Phone number: +375 29 974 59 21
 * E-mail: violetadrozd@yandex.ru
-* Behance
+* [Behance](https://www.behance.net/violetadrozd)
+* [LinkedIn](https://www.linkedin.com/in/%D0%B2%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%B0-%D0%BB%D0%B8%D1%82%D0%B2%D0%B8%D0%BD/)
+
 ### About me
 
 I’m 35 years old and…yes I’m in constant search of interests. I have experience in working as an administrative assistant. My priority for a job of my dream is plenty of interest in it, possibility to step forward little by little, possibility to see results of my work. Currently I work as a content manager, and it’s a small step towards to implementing my knowledge of html/css in real life.
@@ -49,5 +51,5 @@ function towelSort (matrix){
   ```
 ### Courses:
 
-JavaScript Manual on learnjavascript.ru (in progress)
-RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+* JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+* RS Schools Course [«JavaScript/Front-end. Stage 1»](https://rs.school/js/) (in progress)
