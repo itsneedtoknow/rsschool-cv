@@ -1,35 +1,24 @@
-@mixin flex-column(){
-    display: flex;
-    flex-direction: column;
-}
-@mixin section-settings(){
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-}
+
 %flex-position{
     display: flex;
+    align-items: center;
 }
 %link-settings{
     text-decoration: none;
     color: $secondary-color;
 }
-.header{
-    // @include section-settings();
-}
+// .header{
+//     // @include section-settings();
+// }
 
 .header__container {
     @extend %flex-position;
-    align-items: center
+    
 
 }
-.column__left {
-    @include flex-column();
-    width: 30%;
-    background-color: $primary-color;
-}
+
 .header__logo {
-    @include section-settings();
+    // @include section-settings();
     
     
     .logo_name {
@@ -38,23 +27,19 @@
         position: relative;
         color: $tertiary-color;
 }
-.logo_surname {
-    position: absolute;
-    left: 378px;
-    top: 51px;
-    font-weight: 600;
-    font-family: $secondary-font;
-    color: $secondary-color;
-    font-size: 15px;
+    .logo_surname {
+        position: absolute;
+        left: 378px;
+        top: 51px;
+        font-weight: 600;
+        font-family: $secondary-font;
+        color: $secondary-color;
+        font-size: 15px;
+    }
 }
-}
-
-.column__right {
-    width: 70%;
-}
-.header__navigation {
-    @include section-settings();
-}
+// .header__navigation {
+//     // @include section-settings();
+// }
 .nav__menu {
     @extend %flex-position;
     width: 80%;

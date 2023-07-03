@@ -1,0 +1,48 @@
+.main {
+}
+.main__container {
+    @extend %flex-position;
+}
+.main__about{
+    height: 200px;
+    justify-content: center;
+}
+.main__column__left {
+    // padding: 0;
+    .main__about{
+        margin: 0 auto;
+        
+
+        img{
+        object-fit: cover;
+        width: 100%;
+        border-radius: 50%;
+    }
+    }
+}
+.skills{
+    padding: 0 20px;
+}
+.skills__title{
+    color: $tertiary-color;
+    
+}
+.level__percent{
+    
+    height: 100%;
+    background-color: $tertiary-color;
+    color: $primary-color;
+}
+.html__item,
+.css__item {
+    width: 90%;
+}
+.js__item{
+    width: 20%;
+}
+.scss__item{
+    width: 50%;
+}
+.git__item{
+    width: 70%;
+}

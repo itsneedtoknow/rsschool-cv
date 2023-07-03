@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Raleway;
 }
 
 ._container {
@@ -13,12 +14,76 @@
   width: 1440px;
 }
 
+.column__left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 30%;
+  background-color: #015C65;
+}
+
+.column__right {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 70%;
+}
+
+._subsection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+._subsection ._subsection__title_right {
+  margin-bottom: 20px;
+  color: #015C65;
+}
+._subsection ._subsection__title_left {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 3%;
+}
+.item .item__left {
+  justify-content: space-between;
+}
+.item .item__right {
+  justify-content: none;
+}
+.item .item__title_left {
+  width: 40%;
+  color: white;
+}
+.item .item__title_right {
+  width: 30%;
+  margin-right: 1%;
+  color: #bf9430;
+}
+.item .item__level_left {
+  width: 60%;
+  border: 1px solid white;
+}
+.item .item__level_right {
+  width: 70%;
+  border: 1px solid white;
+}
+
 @font-face {
   font-family: "Storytella";
   src: url("../fonts/Storytella.otf");
 }
-.nav__menu, .header__container {
+.main__container, .nav__menu, .header__container {
   display: flex;
+  align-items: center;
 }
 
 .menu__link {
@@ -26,22 +91,6 @@
   color: #bf9430;
 }
 
-.header__container {
-  align-items: center;
-}
-
-.column__left {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  background-color: #015C65;
-}
-
-.header__logo {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 40px;
-}
 .header__logo .logo_name {
   font-family: Raleway;
   font-size: 45px;
@@ -56,16 +105,6 @@
   font-family: Rock Salt;
   color: #bf9430;
   font-size: 15px;
-}
-
-.column__right {
-  width: 70%;
-}
-
-.header__navigation {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 40px;
 }
 
 .nav__menu {
@@ -84,4 +123,50 @@
   text-decoration: underline;
   cursor: pointer;
   color: #bf9430;
+}
+
+.main__about {
+  height: 200px;
+  justify-content: center;
+}
+
+.main__column__left .main__about {
+  margin: 0 auto;
+}
+.main__column__left .main__about img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.skills {
+  padding: 0 20px;
+}
+
+.skills__title {
+  color: white;
+}
+
+.level__percent {
+  height: 100%;
+  background-color: white;
+  color: #015C65;
+}
+
+.html__item,
+.css__item {
+  width: 90%;
+}
+
+.js__item {
+  width: 20%;
+}
+
+.scss__item {
+  width: 50%;
+}
+
+.git__item {
+  width: 70%;
 }/*# sourceMappingURL=style.css.map */
