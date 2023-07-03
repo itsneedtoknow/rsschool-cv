@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+._container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+@font-face {
+  font-family: "Storytella";
+  src: url("../fonts/Storytella.otf");
+}
+.nav__menu, .header__container {
+  display: flex;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #bf9430;
+}
+
+.header__container {
+  align-items: center;
+}
+
+.column__left {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: #015C65;
+}
+
+.header__logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+.header__logo .logo_name {
+  font-family: Raleway;
+  font-size: 45px;
+  position: relative;
+  color: white;
+}
+.header__logo .logo_surname {
+  position: absolute;
+  left: 378px;
+  top: 51px;
+  font-weight: 600;
+  font-family: Rock Salt;
+  color: #bf9430;
+  font-size: 15px;
+}
+
+.column__right {
+  width: 70%;
+}
+
+.header__navigation {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+.nav__menu {
+  width: 80%;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+
+.menu__item {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  list-style: none;
+}
+.menu__item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #bf9430;
+}/*# sourceMappingURL=style.css.map */
