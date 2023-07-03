@@ -1,4 +1,5 @@
-.main {
+%section-position{
+    padding-left: 20px
 }
 .main__container {
     @extend %flex-position;
@@ -21,7 +22,7 @@
     }
 }
 .skills{
-    padding: 0 20px;
+    @extend %section-position;
 }
 .skills__title{
     color: $tertiary-color;
@@ -45,4 +46,59 @@
 }
 .git__item{
     width: 70%;
+}
+.main__language {
+}
+._subsection {
+}
+._subsection__title_left {
+}
+.language__title {
+}
+.language {
+    @extend %section-position;
+}
+.language__item {
+    position: relative;
+    padding-left: 20px;
+    &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 3px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $tertiary-color;
+        margin-right: 10px;
+    }
+}
+.contacts{
+    @extend %section-position;
+}
+.contacts__item{
+    a{
+        text-decoration: none;
+        color: $tertiary-color;
+    }
+
+    &:hover{
+        text-decoration: underline;
+        color: $tertiary-color;
+        cursor: pointer;
+    }
+
+    .github{
+        position: relative;
+        .fa{
+            position: absolute;
+            left: 0;
+            top: 8px;
+            color: $tertiary-color;
+            font-size: 15px;
+            width: 15px;
+            height: 15px;
+            
+        }
+    }
 }
