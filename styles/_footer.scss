@@ -1,0 +1,30 @@
+
+
+.footer__container{
+    @extend %flex-position;
+    
+    background-color: $primary-color;
+    justify-content: space-around;
+    &>*{
+        @include section-settings();
+    }
+}
+.footer_item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: $tertiary-color;
+
+    a{
+        @extend %link-settings;
+        color: $tertiary-color;
+    }
+    
+}
+.fa {
+    font-size: 18px !important;
+    margin-right: 10px
+}
+.rsschool-logo {
+    height: 30px;
+}
