@@ -1,0 +1,28 @@
+
+$secondary-font: Rock Salt;
+$primary-font: Raleway;
+
+$primary-color: #015C65;
+$secondary-color: #bf9430;
+$tertiary-color: white;
+$lighter-primary: lighten($primary-color, 5%);
+
+@mixin flex-column(){
+    display: flex;
+    flex-direction: column;
+}
+@mixin section-settings(){
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+%a-settings{
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

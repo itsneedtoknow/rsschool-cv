@@ -1,0 +1,312 @@
+.item__btn {
+  text-decoration: none;
+}
+.item__btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Raleway;
+}
+
+._container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1440px;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.main__container {
+  display: flex;
+}
+
+.column__left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 30%;
+  background-color: #015C65;
+}
+
+.column__right {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 70%;
+}
+
+._subsection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+._subsection ._subsection__title_right {
+  margin-bottom: 20px;
+  color: #015C65;
+}
+._subsection ._subsection__title_left {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 3%;
+}
+.item .item__left {
+  justify-content: space-between;
+}
+.item .item__right {
+  justify-content: none;
+}
+.item .item__title_left {
+  width: 40%;
+  color: white;
+}
+.item .item__title_right {
+  width: 30%;
+  margin-right: 1%;
+  color: #bf9430;
+}
+.item .item__level_left {
+  width: 60%;
+  border: 1px solid white;
+}
+.item .item__level_right {
+  width: 70%;
+  border: 1px solid white;
+}
+
+.item__btn {
+  text-decoration: none;
+}
+.item__btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Storytella";
+  src: url("../fonts/Storytella.otf");
+}
+.footer__container, .nav__menu, .header__container, .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer_item a, .contacts__item a, .menu__link {
+  text-decoration: none;
+}
+.footer_item a:hover, .contacts__item a:hover, .menu__link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header__logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.header__logo .logo_name {
+  position: relative;
+  font-family: Raleway;
+  font-size: 45px;
+  color: white;
+}
+.header__logo .logo_surname {
+  position: absolute;
+  left: 378px;
+  top: 70px;
+  font-weight: 600;
+  font-family: Rock Salt;
+  color: #bf9430;
+  font-size: 15px;
+}
+
+.nav__menu {
+  justify-content: space-between;
+}
+
+.menu__item {
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 500;
+  list-style: none;
+}
+.menu__item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #bf9430;
+}
+
+.menu__link {
+  color: #bf9430;
+}
+
+.contacts, .language, .skills {
+  padding-left: 20px;
+}
+
+.item__btn {
+  text-decoration: none;
+}
+.item__btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main__about {
+  justify-content: center;
+}
+
+.main__about {
+  margin: 0 auto;
+}
+.main__about img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.skills__title {
+  color: white;
+}
+
+.level__percent {
+  height: 100%;
+  background-color: white;
+  color: #015C65;
+}
+
+.html__item,
+.css__item {
+  width: 90%;
+}
+
+.js__item {
+  width: 20%;
+}
+
+.scss__item {
+  width: 50%;
+}
+
+.git__item {
+  width: 70%;
+}
+
+.language__item {
+  position: relative;
+  padding-left: 20px;
+}
+.language__item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.contacts__item a {
+  color: white;
+}
+.contacts__item .github {
+  width: 100%;
+}
+.contacts__item .github .fa {
+  color: white;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.contacts__item .mail {
+  width: 100%;
+}
+
+.project__item {
+  position: relative;
+  width: 45%;
+}
+.project__item img {
+  width: 100%;
+  -webkit-filter: blur(3px);
+}
+.project__item .item__name,
+.project__item .item__skillset {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  color: #015C65;
+  font-size: 18px;
+  font-weight: 600;
+}
+.project__item .item__skillset {
+  font-size: 16px;
+  font-weight: 500;
+  top: 35px;
+}
+
+.item__btn {
+  border: 1px solid #015C65;
+  color: #015C65;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  position: absolute;
+  right: 10%;
+  bottom: 20px;
+}
+.item__btn:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #01737e;
+}
+
+.footer__container {
+  background-color: #015C65;
+  justify-content: space-around;
+}
+.footer__container > * {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.footer_item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+}
+.footer_item a {
+  color: white;
+}
+
+.fa {
+  font-size: 18px !important;
+  margin-right: 10px;
+}
+
+.rsschool-logo {
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,144 @@
+%section-position{
+    padding-left: 20px
+}
+%a-settings{
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.main__about{
+    // height: 200px;
+    justify-content: center;
+}
+
+    .main__about{
+        margin: 0 auto;
+
+        img{
+        object-fit: cover;
+        width: 100%;
+        border-radius: 50%;
+    }
+    }
+
+.skills{
+    @extend %section-position;
+}
+.skills__title{
+    color: $tertiary-color;
+    
+}
+.level__percent{    
+    height: 100%;
+    background-color: $tertiary-color;
+    color: $primary-color;
+}
+.html__item,
+.css__item {
+    width: 90%;
+}
+.js__item{
+    width: 20%;
+}
+.scss__item{
+    width: 50%;
+}
+.git__item{
+    width: 70%;
+}
+
+.language {
+    @extend %section-position;
+}
+.language__item {
+    position: relative;
+    padding-left: 20px;
+    &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 3px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $tertiary-color;
+        margin-right: 10px;
+    }
+}
+.contacts{
+    @extend %section-position;
+}
+.contacts__item{
+    a{
+        @extend %link-settings;
+        color: $tertiary-color;
+    }
+    .github{
+        width: 100%;
+        .fa{
+           
+            color: $tertiary-color;
+            font-size: 15px;
+            margin-right: 10px;
+        }
+    }
+    .mail{
+        width: 100%;}
+}
+
+.project__item {
+    position: relative;
+    width: 45%;
+    img{
+        
+        width: 100%;
+        -webkit-filter: blur(3px);
+        // &::before{
+        //     position: absolute;
+        //     content: '';
+        //     width: 60%;
+        //     filter: blur(4px);
+        //     top: 0;
+        //     left: 0;
+        //     z-index: 1;
+        // }
+        
+    }
+    .item__name,
+    .item__skillset {
+        position: absolute;
+        left: 50px;
+        top: 10px;
+        color: $primary-color;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .item__skillset {
+        font-size: 16px;
+        font-weight: 500;
+        top: 35px;
+    }
+    
+}
+.item__btn{
+    @extend %a-settings;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    background-color: $tertiary-color;
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10%;
+    bottom: 20px;
+    &:hover{
+        color: $tertiary-color;
+        text-decoration: none;
+        background-color: $lighter-primary;
+    }
+}
+
+
