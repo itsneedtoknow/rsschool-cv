@@ -139,14 +139,12 @@
 }
 
 .nav__menu {
-  width: 80%;
   justify-content: space-between;
-  padding-left: 80px;
 }
 
 .menu__item {
   font-family: Raleway;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   list-style: none;
 }

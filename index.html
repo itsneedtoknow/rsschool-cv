@@ -27,19 +27,26 @@
                                 <a class="menu__link" href="#about">About</a>
                             </li>
                             <li class="menu__item">
-                                <a class="menu__link" href="#education">Education</a>
-                            </li>
-                            <li class="menu__item">
                                 <a class="menu__link" href="#skills">Skills</a>
                             </li>
                             <li class="menu__item">
                                 <a class="menu__link" href="#experience">Experience</a>
                             </li>
                             <li class="menu__item">
+                                <a class="menu__link" href="#education">Education</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#languages">Languages</a>
+                            </li>
+                            
+                            <li class="menu__item">
                                 <a class="menu__link" href="#code">Code</a>
                             </li>
                             <li class="menu__item">
                                 <a class="menu__link" href="#projects">Projects</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#contacts">Contacts</a>
                             </li>
                         </ul>
                     </nav>
@@ -49,11 +56,11 @@
         <main class="main">
             <div class="main__container _container">
                 <div class="column__left main__column__left">
-                    <section class="main__about _subsection">
+                    <div class="main__about _subsection">
                         <img class="about_photo" src="img/my_photo.jpg" alt="">
-                    </section>
+                    </div>
                     <section id="skills" class="main__skills _subsection">
-                        <h2 class="_subsection__title_left skills__title">Skills</h2>
+                        <h2 class="_subsection__title_left _subsection__title skills__title">Skills</h2>
                         <ul class="skills">
                             <li class="skill__item item item__left">
                                 <p class="item__title_left">HTML</p>
@@ -88,19 +95,18 @@
                         </ul>
                     </section>
                     <section id="language" class="main__language _subsection">
-                        <h2 class="_subsection__title_left language__title">Language</h2>
+                        <h2 class="_subsection__title_left _subsection__title language__title">Languages</h2>
                         <ul class="language">
-                            <li class="language__item item item__left">                                
-                                
+                            <li class="language__item item item__left">
                                 <p class="item__title_left eng">English - B2</p>
                             </li>
-                            <li class="language__item item item__left">                               
-                                
+                            <li class="language__item item item__left">
                                 <p class="item__title_left german">German - A1</p>
                             </li>
-                    </section>
+                        </ul>
+                        </section>
                     <section id="contacts" class="main__contacts _subsection">
-                        <h2 class="_subsection__title_left contacts__title">Contacts</h2>
+                        <h2 class="_subsection__title_left  _subsection__title contacts__title">Contacts</h2>
                         <ul class="contacts">
                             <li class="contacts__item item item__left">
                                 <p class="item__title_left github"><a href="https://github.com/itsneedtoknow"><i class="fa fa-github" aria-hidden="true"></i>github/itsneedtoknow</a></p>
@@ -108,15 +114,16 @@
                             <li class="contacts__item item item__left">
                                 <p class="item__title_left mail"><a href="mailto:violetadrozd@yandex.ru"><i class="fa fa-envelope-open-o" aria-hidden="true"></i>violetadrozd@yandex.ru</a></p>
                             </li>
+                        </ul>
                     </section>
                 </div>
                 <div class="column__right main__column__right">
                     <section id="about" class="main__about _subsection">
-                        <h2 class="about__title _subsection__title_right">About</h2>
+                        <h2 class="about__title _subsection__title _subsection__title_right">About</h2>
                         <p class="about__text _subsection__text">I’m 35 years old and…yes I’m in constant search of interests. I have experience in working as an administrative assistant. My priority for a job of my dream is plenty of interest in it, possibility to step forward little by little, possibility to see results of my work. Currently I work as a content manager, and it’s a small step towards to implementing my knowledge of html/css in real life.</p>
                     </section>
                     <section id="experience" class="main__experience _subsection">
-                        <h2 class="experience__title _subsection__title_right">Experience</h2>
+                        <h2 class="experience__title _subsection__title _subsection__title_right">Experience</h2>
                         <ul class="experience">
                             <li class="experience__item item item__right">
                                 <p class="item__title_right">Sept 2009 - Aug 2011</p>
@@ -145,7 +152,7 @@
                         </ul>
                     </section>
                     <section id="education" class="main__education _subsection">
-                        <h2 class="education__title _subsection__title_right">Education</h2>
+                        <h2 class="education__title _subsection__title _subsection__title_right">Education</h2>
                         <ul class="education">
                             <li class="education__item item item__right">
                                 <p class="item__title_right">Sept 2004 - Aug 2009</p>
@@ -168,7 +175,7 @@
                         </ul>
                     </section>
                     <section id="code" class="main__code _subsection">
-                        <h2 class="code__title _subsection__title_right">Code example</h2>
+                        <h2 class="code__title _subsection__title _subsection__title_right">Code</h2>
                         <pre class="code">
                             <code class="code_example">
                               function capitalizeWord(word) {
@@ -180,7 +187,7 @@
                           </pre>
                     </section>
                     <section id="projects" class="main__projects _subsection">
-                        <h2 class="projects__title _subsection__title_right">My projects</h2>
+                        <h2 class="projects__title _subsection__title _subsection__title_right">Projects</h2>
                         <div class="project_list">
                             <div class="project__item">
                                 <img src="img/virtual-keyboard.jpg" alt="virtual-keyboard-project">
@@ -202,5 +209,6 @@
         </div>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

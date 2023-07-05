@@ -11,9 +11,7 @@
         cursor: pointer;
     }
 }
-// .header{
-//     // @include section-settings();
-// }
+
 
 .header__container {
     @extend %flex-position;
@@ -41,18 +39,15 @@
         font-size: 15px;
     }
 }
-// .header__navigation {
-//     // @include section-settings();
-// }
+
 .nav__menu {
     @extend %flex-position;
-    width: 80%;
+    // width: 80%;
     justify-content: space-between;
-    padding-left: 80px;
 }
 .menu__item {
     font-family: $primary-font;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     list-style: none;
 
