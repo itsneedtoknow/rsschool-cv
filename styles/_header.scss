@@ -5,7 +5,11 @@
 }
 %link-settings{
     text-decoration: none;
-    color: $secondary-color;
+
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
 }
 // .header{
 //     // @include section-settings();
@@ -18,19 +22,19 @@
 }
 
 .header__logo {
-    // @include section-settings();
+    @include section-settings();
     
     
     .logo_name {
-        font-family: $primary-font;
-        font-size: 45px;
         position: relative;
+        font-family: $primary-font;
+        font-size: 45px;        
         color: $tertiary-color;
 }
     .logo_surname {
         position: absolute;
         left: 378px;
-        top: 51px;
+        top: 70px;
         font-weight: 600;
         font-family: $secondary-font;
         color: $secondary-color;
@@ -60,4 +64,5 @@
 }
 .menu__link {
     @extend %link-settings;
+    color: $secondary-color;
 }

@@ -5,6 +5,9 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt:regular" rel="stylesheet" />
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/font-awesome.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="styles/font-awesome.min.css">
     <title>Violeta Drozd</title>
 </head>
 <body>
@@ -103,7 +106,7 @@
                                 <p class="item__title_left github"><a href="https://github.com/itsneedtoknow"><i class="fa fa-github" aria-hidden="true"></i>github/itsneedtoknow</a></p>
                             </li>
                             <li class="contacts__item item item__left">
-                                <p class="item__title_left mail"><a href="mailto:violetadrozd@yandex.ru">violetadrozd@yandex.ru</a></p>
+                                <p class="item__title_left mail"><a href="mailto:violetadrozd@yandex.ru"><i class="fa fa-envelope-open-o" aria-hidden="true"></i>violetadrozd@yandex.ru</a></p>
                             </li>
                     </section>
                 </div>
@@ -164,10 +167,40 @@
                             </li>
                         </ul>
                     </section>
+                    <section class="main__code _subsection">
+                        <h2 class="code__title _subsection__title_right">Code example</h2>
+                        <pre class="code">
+                            <code class="code_example">
+                              function capitalizeWord(word) {
+                                const upperLetter = word[0].toUpperCase();
+                                const wordUpper = word.replace(word[0],upperLetter);
+                                return wordUpper;
+                              }
+                            </code>
+                          </pre>
+                    </section>
+                    <section class="main__projects _subsection">
+                        <h2 class="projects__title _subsection__title_right">My projects</h2>
+                        <div class="project_list">
+                            <div class="project__item">
+                                <img src="img/virtual-keyboard.jpg" alt="virtual-keyboard-project">
+                                <p class="item__name">Virtual keyboard</p>
+                                <p class="item__skillset">HTML, CSS, JS</p>
+                                <a class="item__btn" href="https://itsneedtoknow.github.io/virtual-keyboard/">See details</a>
+                            </div>
+                        </div>
+                    </section>
+                    
                 </div>
             </div>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="footer__container _container">
+            <div class="github-link footer_item"><a href="https://github.com/itsneedtoknow"><i class="fa fa-github" aria-hidden="true"></i>My GitHub</a></div>
+            <div class="author-details footer_item">2022 &copy;Violeta Drozd</div>
+            <div class="rss-link footer_item"><a href="https://rs.school/js-stage0/"><img class="rsschool-logo" src="img/rs_school_js.svg" alt="logo"></a></div>
+        </div>
+        </footer>
     </div>
 </body>
 </html>

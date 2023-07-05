@@ -9,9 +9,17 @@
     margin: 0 auto;
     width: 1200px;
 }
-.wrapper{
+.wrapper{    
     margin: 0 auto;
     width: 1440px;
+    height: 100vh;    
+    @extend %flex-position;
+    flex-direction: column;
+    
+}
+.main__container{
+    display: flex;
+    // align-items: center;
 }
 
 .column__left {
@@ -19,10 +27,12 @@
     @include section-settings();
     width: 30%;
     background-color: $primary-color;
+    // height: 100%;
 }
 .column__right {
     @include section-settings();
     width: 70%;
+    // height: 100%;
 }
 
 ._subsection{
